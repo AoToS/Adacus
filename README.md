@@ -1,1 +1,4 @@
-# Mixed signal PCB with op-amps, filters, ADC/DAC interfaces.
+
+Welcome to the Adacus Mixed Signal Analyzer! Designed for precision and versatility, Adacus is a compact yet powerful tool that bridges the gap between oscilloscopes and digital analyzers. With a dual-probe input range of 20Hz to 20kHz, Adacus offers detailed signal analysis across a variety of applications, making it an essential instrument for hobbyists, engineers, and researchers alike.
+
+Adacus is equipped with state-of-the-art peripherals, including SWD for debugging, USB for connectivity, and SPI for high-speed data transfer. This ensures seamless integration with your existing workflows and provides a robust platform for advanced signal analysis.
