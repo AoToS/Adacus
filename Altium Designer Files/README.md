@@ -42,7 +42,7 @@ This section focuses on the technical side of the board. It discusses the made c
 
 ### Connection & Pin-out:
  SWD connector pin-out:
- Connector pin-out is as follows:
+Only one of suchh connector was used for this PCB it was placed on te top layer with appropritiate pins given as below:
 
 | NO# | PIN_NAME |   PIN_DESCRIPTION    |
 | :-: | :------: | :------------------: |
@@ -57,7 +57,8 @@ This section focuses on the technical side of the board. It discusses the made c
 |  9  |   NRST   |        Reset         |
 | 10  |    NC    | Pin is not connected |
 
-Moreover, following is the pinout of the MCU used for this project. Only the used pins were documented:
+
+For the MCU "STM32F103CBT6" was used from STM microcontroller family. It is compact and does not need additional connections to operate with 48 pins and fairly small size. One may see the used pins below(1*): 
 
 | NO# | PIN_NAME   | PIN_DESCRIPTION         |
 | :-- | ---------- | ----------------------- |
@@ -90,3 +91,66 @@ Moreover, following is the pinout of the MCU used for this project. Only the use
 | 45  | TIM3       | Timer cannel            |
 | 47  | GND        | Ground pin              |
 | 48  | +3V3       | Power input 3V3         |
+
+NOTE(1*): Only the used pins are marked here and discussed further. Rest of the pins are unconnected and therefore not mentioned hereafter. 
+
+## Schematics
+Schematic is devided into 4 internal sheets each containing different components based on the board functionality. Schhematic sheets can be given as below:
+
+* Power_adacus_sch: Contains the power circuitry. Voltage converters for +3V3 and +3V3A(1*) power output as well as the bias generator for op-amp bias. Mechanical components(2*).
+
+* MCU_adacus_sch: Includes main microcontroller schematics and relevant additional components such as oscillator, timer and power LED, SWD connector, USB and relative ESD protection ICs.
+
+* DAC_adacus_sch: This sheet includes the general DAC circuitry. Whic in itself contains DAC circuitry and antialising filter consisting of op-amp. Finally, input connector is also placed in this schematic.
+
+* Analog_adacus_sch: Finally analog front-end is placed on this schematic together with ADC for proper signal analysis. One may also find the output connector on this sheet.
+
+
+NOTE(1*): +3V3A is generated due to the analog power use. For op-amps used on later stages of project.
+NOTE(2*): Mechanical component such as mounting holes are placed on this schematic to avoid creating additional schematic document.
+
+
+## Board stack-up
+As mentioned previously board is designed to be 4 layer PCB. Following stack-up was used to ensure proper board funtionality:
+
+| NO# | BOARD_LAYER  |  SIGNAL   |
+| :-: | :----------: | :-------: |
+|  1  |  TOP_LAYER   | SIG/POWER |
+|  2  | MID_LAYER_1  |    GND    |
+|  3  | MID_LAYER_2  |    GND    |
+|  4  | BOTTOM_LAYER | SIG/POWER |
+
+Once again such stack-up was implemented to make sure proper return path for top and bottom layer signal and power tracks. Moreover, internal ground planes are further sticked together with stiching vias placed on the top layer.
+
+For the layer specifications JLCPCBs website for board manufacturing since the board is planned to be manufactured via them. One may see the grapical representation of the stack-up below:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6d6013cc-bcba-41b8-89a0-d19c988c0383" />
+</p>
+<p align="center">
+Fig. 5  Layer stack-up
+</p>
+
+Material and used layer thicknesses were taken from JLCPBCs. Manufacturer website link can be given as such for furter information: https://jlcpcb.com/impedance.
+
+## Tracks & Vias
+For the board designed 3 standard track width used. One may see such specifiations below:
+
+ | NO# |       WIDTH       |               PURPOSE                | USED |
+ | :-: | :---------------: | :----------------------------------: | :--: |
+ |  1  |  0.3mm/11.811mil  |             Signal lines             | YES  |
+ |  2  |  0.5mm/19.685mil  |              Power line              | YES  |
+ |  3  | 0.293mm/11.535mil | Impedence matched signal ended track | YES  |
+
+ Furthermore, for the USB data lines impedence matched track was used. Considering the board stack-up and standard impedance for differential pair (90 ohm). Following track width was used for the differential pair:
+
+| NO# |      WIDTH       |                     PURPOSE                     | USED |
+| :-: | :--------------: | :---------------------------------------------: | :--: |
+|  1  | 0.286mm/11.26mil | Impedance matching track for differential pairs | YES  |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88952e83-4397-4244-b3a5-3c905d8bb83a" />
+</p>
+<p align="center">
+Fig. 5  Differential non-copolar pair impedance matching
+</p>
+
