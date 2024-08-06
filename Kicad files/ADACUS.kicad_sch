@@ -1,0 +1,217 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5b4caae3-37f5-49e8-8ccb-da7cc544f604")
+	(paper "A4")
+	(lib_symbols)
+	(text "[2] MCU"
+		(exclude_from_sim yes)
+		(at 161.036 34.544 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "21d50075-7cad-4ad0-830e-43d9b5599f63")
+	)
+	(text "[3] ADC"
+		(exclude_from_sim yes)
+		(at 68.834 97.79 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "3b35eab3-2286-428d-8d5d-dc03d4669a8d")
+	)
+	(text "[4] DAC\n"
+		(exclude_from_sim yes)
+		(at 162.814 99.314 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "d086c400-9d77-46b3-aecf-6826c6bd7857")
+	)
+	(text "[1] POWER"
+		(exclude_from_sim yes)
+		(at 73.406 35.306 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "f6495c5a-c0fc-4022-b05b-3a08e5a5e07c")
+	)
+	(sheet
+		(at 151.13 106.68)
+		(size 38.1 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00d69a87-1f9e-4a60-98b4-ea50b284f182")
+		(property "Sheetname" "DAC"
+			(at 151.13 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC_ADACUS_sch.kicad_sch"
+			(at 151.13 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADACUS"
+				(path "/5b4caae3-37f5-49e8-8ccb-da7cc544f604"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 43.18)
+		(size 34.29 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "012cb542-cefe-4141-9286-26b7d5e6806c")
+		(property "Sheetname" "POWER"
+			(at 57.15 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_adacus_sch.kicad_sch"
+			(at 57.15 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADACUS"
+				(path "/5b4caae3-37f5-49e8-8ccb-da7cc544f604"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 105.41)
+		(size 35.56 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a988b36-57d2-4e88-bd76-42555a652ede")
+		(property "Sheetname" "ADC"
+			(at 57.15 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_ADACUS_sch.kicad_sch"
+			(at 57.15 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADACUS"
+				(path "/5b4caae3-37f5-49e8-8ccb-da7cc544f604"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 41.91)
+		(size 38.1 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd0dfdd1-4cb7-41b3-b57d-52c5445c122b")
+		(property "Sheetname" "MCU"
+			(at 148.59 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_ADACUS_sch.kicad_sch"
+			(at 148.59 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADACUS"
+				(path "/5b4caae3-37f5-49e8-8ccb-da7cc544f604"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
