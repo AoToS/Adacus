@@ -1,0 +1,2 @@
+3:50:11 PM: File 'C:\Users\Turan\AppData\Local\Programs\KiCad\8.0\share\kicad\symbols\Analog_DAC.bak' couldn't be removed (error 0: The operation completed successfully.)
+3:50:11 PM: Failed to copy the file 'C:\Users\Turan\AppData\Local\Programs\KiCad\8.0\share\kicad\symbols\Analog_DAC.kicad_sym' to 'C:\Users\Turan\AppData\Local\Programs\KiCad\8.0\share\kicad\symbols\Analog_DAC.bak' (error 0: The operation completed successfully.)
