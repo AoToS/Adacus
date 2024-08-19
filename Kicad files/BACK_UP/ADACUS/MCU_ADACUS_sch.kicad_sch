@@ -4883,8 +4883,8 @@
 		(uuid "cb964672-8ebe-4ccc-b592-88b6c9695167")
 	)
 	(no_connect
-		(at 104.14 92.71)
-		(uuid "f17819f3-57fb-48e9-a4b9-d804a020d76a")
+		(at 104.14 115.57)
+		(uuid "d4074a07-2920-4793-b787-b5fee09c2c8a")
 	)
 	(no_connect
 		(at 104.14 77.47)
@@ -5073,6 +5073,16 @@
 			(type default)
 		)
 		(uuid "1b7cfbb3-00c3-44ff-aeae-8de79b7abb6c")
+	)
+	(wire
+		(pts
+			(xy 86.36 113.03) (xy 104.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7e6276-e97a-4012-be5c-8825734402df")
 	)
 	(wire
 		(pts
@@ -5383,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "54a02901-b88a-4757-b5cf-69bebab096cc")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5530c546-44af-451c-b083-029cbc68b398")
 	)
 	(wire
 		(pts
@@ -6126,16 +6146,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 115.57) (xy 104.14 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a932d5db-dd2f-4bea-99d6-39438c3ea268")
-	)
-	(wire
-		(pts
 			(xy 52.07 44.45) (xy 64.77 44.45)
 		)
 		(stroke
@@ -6773,16 +6783,6 @@
 			(type dash)
 		)
 		(uuid "ebdb808f-fde3-491b-bd18-7575197841fd")
-	)
-	(wire
-		(pts
-			(xy 86.36 113.03) (xy 104.14 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef8041eb-dd83-4d6d-b4bb-1c4049a16535")
 	)
 	(wire
 		(pts
@@ -7522,7 +7522,7 @@
 	)
 	(global_label "DAC_NLDAC"
 		(shape input)
-		(at 86.36 115.57 180)
+		(at 86.36 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7532,7 +7532,7 @@
 		)
 		(uuid "2770212f-45b2-4d7c-a54d-7730ea9acfbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6079 115.57 0)
+			(at 74.6079 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7654,7 @@
 	)
 	(global_label "DAC_NCLR"
 		(shape input)
-		(at 86.36 113.03 180)
+		(at 76.2 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7664,7 +7664,7 @@
 		)
 		(uuid "bf3bbeae-76b0-4559-8b7d-e6cf1db50fdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.5508 113.03 0)
+			(at 65.3908 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,7 +9500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1UB,115 "
+		(property "Value" "PESD3V3L1UB,115"
 			(at 30.48 181.61 90)
 			(effects
 				(font
@@ -9569,7 +9569,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1UB,115 "
+		(property "Value" "PESD3V3L1UB,115"
 			(at 71.12 193.04 90)
 			(effects
 				(font
@@ -9639,7 +9639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1UB,115 "
+		(property "Value" "PESD3V3L1UB,115"
 			(at 59.69 193.04 90)
 			(effects
 				(font
@@ -10459,7 +10459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1UB,115 "
+		(property "Value" "PESD3V3L1UB,115"
 			(at 82.55 193.04 90)
 			(effects
 				(font
@@ -11831,7 +11831,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1UB,115 "
+		(property "Value" "PESD3V3L1UB,115"
 			(at 105.41 186.69 90)
 			(effects
 				(font
@@ -11908,7 +11908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 260.35 102.87 0)
 			(effects
 				(font
