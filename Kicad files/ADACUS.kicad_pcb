@@ -20518,7 +20518,11 @@
 		(tags "resistor")
 		(property "Reference" "R301"
 <<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
+<<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
 			(at 0 -1.17 0)
+=======
+			(at 0 -1.17 360)
+>>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
 =======
 			(at 0 -1.17 360)
 >>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
@@ -20534,7 +20538,11 @@
 		)
 		(property "Value" "0R"
 <<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
+<<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
 			(at 0 1.17 0)
+=======
+			(at 0 1.17 360)
+>>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
 =======
 			(at 0 1.17 360)
 >>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
@@ -20694,7 +20702,11 @@
 		)
 		(fp_text user "${REFERENCE}"
 <<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
+<<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
 			(at 0 0 0)
+=======
+			(at 0 0 360)
+>>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
 =======
 			(at 0 0 360)
 >>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
@@ -25868,7 +25880,11 @@
 		(tags "resistor")
 		(property "Reference" "R203"
 <<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
+<<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
 			(at 0 -1.17 0)
+=======
+			(at 0 -1.17 360)
+>>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
 =======
 			(at 0 -1.17 360)
 >>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
@@ -25884,7 +25900,11 @@
 		)
 		(property "Value" "10K"
 <<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
+<<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
 			(at 0 1.17 0)
+=======
+			(at 0 1.17 360)
+>>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
 =======
 			(at 0 1.17 360)
 >>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
@@ -26044,7 +26064,11 @@
 		)
 		(fp_text user "${REFERENCE}"
 <<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
+<<<<<<< HEAD:Kicad files/ADACUS.kicad_pcb
 			(at 0 0 0)
+=======
+			(at 0 0 360)
+>>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
 =======
 			(at 0 0 360)
 >>>>>>> 5e7498f59751e1f197d3e72986bc7fe7e2963c41:Kicad files/BACK_UP/ADACUS/ADACUS.kicad_pcb
