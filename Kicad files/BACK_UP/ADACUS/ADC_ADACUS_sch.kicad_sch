@@ -3912,7 +3912,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1UB,115 "
+		(property "Value" "PESD3V3L1UB,115"
 			(at 38.1 81.28 90)
 			(effects
 				(font
